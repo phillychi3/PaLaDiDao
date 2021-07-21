@@ -48,6 +48,20 @@
     background-size: cover;
     position:relative;
   }
+  .parallax2 {
+    /* The image used */
+    background-image: url("/image/in1.png");
+  
+    /* Set a specific height */
+    min-height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
 
   .footer {
     color: #ffffff;
