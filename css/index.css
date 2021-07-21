@@ -32,6 +32,60 @@
     display: none;
   }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+
+  .parallax1 {
+    /* The image used */
+    background-image: url("/image/in1.png");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
+
+  .footer {
+    color: #ffffff;
+    background: #535c68;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+  }
+  
+
+  .footer-text{
+    float: left;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 100px;
+
+  }
+
+  .footer-menu{
+    float: right;
+    line-height: 100px;
+  }
+  .footer-menu li{
+    float: left;
+    margin-right: 1em;
+  }
+  .footer-menu li a{
+    font-size: 10px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
