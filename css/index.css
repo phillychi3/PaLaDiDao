@@ -36,7 +36,7 @@
 
   .parallax1 {
     /* The image used */
-    background-image: url("/image/in1.png");
+    background-image: url("image/in1.png");
   
     /* Set a specific height */
     min-height: 200px;
@@ -50,7 +50,7 @@
   }
   .parallax2 {
     /* The image used */
-    background-image: url("/image/in1.png");
+    background-image: url("image/in1.png");
   
     /* Set a specific height */
     min-height: 100%;
