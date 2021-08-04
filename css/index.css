@@ -1,3 +1,26 @@
+html {
+  overflow: -moz-hidden-unscrollable;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  height: 100%;
+width: calc(100vw + 18px);
+overflow: auto;
+}
+
+
+
+
+
+
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #0fb9b1;
@@ -82,8 +105,8 @@
   .footer {
     color: #ffffff;
     background: #535c68;
-    height: 100px;
-    margin-top: 20px;
+    height: 120px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
